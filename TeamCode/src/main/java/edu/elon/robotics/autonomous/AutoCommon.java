@@ -20,4 +20,13 @@ public class AutoCommon extends LinearOpMode {
         robot = new KiwiBot(hardwareMap, true);
     }
 
+    protected void turnAngle(double degrees, double maxPower) {
+        // missing code
+    }
+
+    protected void driveDistance(double cmForward, double cmSide, double maxPower) {
+        // missing code
+    }
+
+
 }

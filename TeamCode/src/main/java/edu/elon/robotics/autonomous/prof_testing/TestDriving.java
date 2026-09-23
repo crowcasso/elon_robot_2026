@@ -1,7 +1,17 @@
-package edu.elon.robotics.autonomous;
+package edu.elon.robotics.autonomous.prof_testing;
+
+/*
+ * Do a bunch of driving/strafing to test driveDistance.
+ *
+ * @author J. Hollingsworth
+ */
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 
+import edu.elon.robotics.autonomous.AutoCommon;
+
+@Disabled
 @Autonomous(name = "Test Driving")
 public class TestDriving extends AutoCommon {
 
@@ -10,7 +20,7 @@ public class TestDriving extends AutoCommon {
     private final double   SLOW_SPEED = 0.3;
     private final double MEDIUM_SPEED = 0.65;
     private final double   FAST_SPEED = 1.0;
-    private final long    SHORT_PAUSE = 250;
+    private final long    SHORT_PAUSE = 500;
     private final long     LONG_PAUSE = 1000;
 
     @Override
