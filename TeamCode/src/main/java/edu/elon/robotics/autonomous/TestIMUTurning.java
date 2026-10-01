@@ -5,7 +5,7 @@ import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 @Autonomous(name = "Test IMU Turning")
 public class TestIMUTurning extends AutoCommon {
 
-    private final double[]  ANGLE_SEQ = {200, -200, 90, -90, -180, 180, 45, -45,
+    private final double[]  ANGLE_SEQ = {90, -90, -180, 180, 200, -200, 45, -45,
             90, 90, 90, 90,
             -90, -90, -90, -90};
     private final double   SLOW_SPEED = 0.3;
